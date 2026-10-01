@@ -1,0 +1,22 @@
+# Node
+node_modules/
+.next/
+*.log
+npm-debug.log*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# AI model cache (large binary files — retrain on first run)
+ai_service/model_cache/*.pkl
+
+# Environment / secrets
+server/.env
+
+# OS
+.DS_Store
+Thumbs.db
